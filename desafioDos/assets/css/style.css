@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.principal {
+    height: 50rem;
+    width: 100%;
+    background-image: linear-gradient(330grad, #4e50d394, #c53abe83), url(../img/fondoDesafioCss2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 1rem;
+
+}
+
+.principal p {
+    height: 10rem ;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(60, 11, 221);
+    padding-top:2.5rem ;
+}
+
+.principal h1 {
+    height: 10rem;
+    font-size: 4rem;
+    color:rgb(202, 13, 13);
+    text-align: left;
+    padding-top: 2.5rem;
+    margin: 11rem 0 0 2rem;
+} 
+
+.principal h1 span {
+    font-weight: 900;
+    font-size: 7rem;
+}
+
+.content {
+    width: 80%;
+    margin: 3rem auto;
+
+}
+
+.table {
+    width: 100%;
+}
+
+.table th {
+    width: 50%;
+    height: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    background-color: darkorange;
+    border-radius: 6rem 0 6rem 0;
+}
+
+.table img {
+    width: 80%;
+    
+}
+
+.table p {
+    font-size: 2.5rem;
+}
+
+.table h3 {
+    font-size: 3.5rem;
+    color: red;
+}
+
+.table h4 {
+    font-size: 3rem;
+}
+
+footer {
+    height: 6rem;
+    background-color: coral;
+}
+
+footer h5 {
+    height:4rem ;
+    font-size: 2.5rem;
+    padding: 2.5rem;
+    text-align: center;
+
+}
