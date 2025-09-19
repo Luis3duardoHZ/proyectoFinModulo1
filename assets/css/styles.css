@@ -124,6 +124,8 @@ ul {
   background-color: #f8f9fa;
   border-bottom: 1px solid #e0e0e0;
   padding: 24px 0;
+  margin: 0 19px;
+  background-image: url(../img/matrix2.webp);
 }
 
 .header__container {
@@ -138,7 +140,7 @@ ul {
 }
 
 .header__name {
-  color: #1a1a1a;
+  color: #000000;
   margin-bottom: 8px;
   /* MEJORADO: Usando Playfair Display */
   font-family: "Lexend", sans-serif;
@@ -147,24 +149,25 @@ ul {
 }
 
 .header__tagline {
-  color: #666666;
-  font-size: 0.875rem; /* 14px */
+  color: #0a0101;
+  font-size: 1.7rem; /* 14px */
   margin: 0 auto;
   /* NUEVO: Espaciado de letras para subtítulos */
   letter-spacing: 0.05em;
   text-transform: uppercase;
   font-weight: 500;
 }
-
+/* TODA LA NAVEGACION APROBADA */
 /* ===========================================
      6. NAVEGACIÓN - TIPOGRAFÍA MEJORADA
      =========================================== */
 .nav {
   text-align: center;
-}
+} 
 
 .nav__list {
-  display: inline-block;
+  
+  text-align: left;
 }
 
 .nav__item {
@@ -173,24 +176,23 @@ ul {
 }
 
 .nav__link {
-  padding: 8px 12px;
+  padding: 8px 12px; 
   display: inline-block;
   color: #333333;
   font-weight: 500;
-  /* NUEVO: Mejor espaciado */
-  font-size: 0.9375rem; /* 15px */
+  font-size: 1.2rem; 
   letter-spacing: 0.01em;
 }
 
 .nav__link:hover {
-  color: #2563eb;
+  color:white;     
   text-decoration: none;
 }
 
 .nav__link--active {
-  color: #2563eb;
+  color:white;      
   font-weight: 600;
-}
+} 
 
 /* ===========================================
      7. MAIN CONTENT

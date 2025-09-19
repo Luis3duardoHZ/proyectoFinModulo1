@@ -15,35 +15,45 @@
   <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 <body>
-    <header class="header">
+   <!-- Header con navegación -->
+  <header class="header">
     <div class="header__container">
       <div class="header__brand">
         <h1 class="header__name">Proyectos Wilson Perez</h1>
         <p class="header__tagline">Desarrollador Web Fullstack en Formación</p>
-      </div>
-
-      <nav class="nav bg-primary pt-3 rounded-2">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="./index.html" class="nav__link nav__link--active">Inicio</a>
-          </li>
-          <li class="nav__item">
-            <a href="#sobre-mi" class="nav__link">Sobre mí</a>
-          </li>
-          <li class="nav__item">
-            <a href="#proyectos" class="nav__link">Proyectos</a>
-          </li>
-          <li class="nav__item">
-            <a href="#habilidades" class="nav__link">Habilidades</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contacto" class="nav__link">Contacto</a>
-          </li>
-        </ul>
-      </nav>
+      </div>       
+       <!--Navegador-->     
+      <nav class="nav navbar navbar-expand-lg bg-primary rounded-2"> 
+        <div class="container">
+          <!--Boton Responsive para navegador-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Mostrar / ocultar Menu"><span class="navbar-toggler-icon"></span>
+          </button> 
+          
+          <div class="collapse navbar-collapse" id="menu"> 
+            <ul class="nav__list navbar-nav " >           
+              
+              <li class="nav__item nav-item">
+                <a href="./index.html" class="nav__link nav__link--active nav-link">Inicio</a>
+              </li>
+              <li class="nav__item nav-item">
+                <a href="#sobre-mi" class="nav__link nav-link">Sobre mí</a>
+              </li>
+              <li class="nav__item nav-item">
+                <a href="./portafolio.html" class="nav__link nav-link" target="_blank">Proyectos</a>
+              </li>
+              <li class="nav__item nav-item">
+                <a href="#habilidades" class="nav__link nav-link">Habilidades</a>
+              </li>
+              <li class="nav__item nav-item">
+                <a href="#contacto" class="nav__link nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div> 
+      </nav> 
     </div>
   </header>
-  
+ 
   <!--Proyectos-->
   <main class="main">
     <section class="projects" id="proyectos">
